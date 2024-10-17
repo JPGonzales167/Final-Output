@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to SÉDUIRE</title>
+    <link rel="stylesheet" href="stylesforcart.css">
+</head>
+<body>
+    <div class="background">
+        <header>
+            <div class="logo">SÉDUIRE</div>
+            <nav>
+                <ul>
+                    <li><a href="index.htm">HOME</a></li>
+                    <li><a href="about.htm">ABOUT US</a></li>
+                </ul>
+            </nav>
+             <div class="header-right">
+                <input type="text" placeholder="Search..." class="search-bar" />
+                <div class="cart-icon">
+                    <a href="cart.htm">
+                        <img src="images/cart.png" alt="Cart" />
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <div class="content-wrapper">
+            <!-- Payment Card Frame -->
+            <div class="payment-card-frame">
+                <div class="payment-card-container">
+                    <div class="image-container">
+                        <img src="images/tylerthe.png" alt="Tyler, The Creator">
+                    </div>
+
+                    <div class="saved-card-header">Use saved card:</div>
+                    <select class="card-selector">
+                        <option value="mastercard">Mastercard</option>
+                        <option value="visa">Visa</option>
+                        <option value="amex">American Express</option>
+                    </select>
+
+                    <div class="card-details">
+                        <label for="name-on-card">Name on card:</label>
+                        <input type="text" id="name-on-card" value="Ivan Salamat">
+                        
+                        <label for="card-number">Card number:</label>
+                        <input type="text" id="card-number" value="000-000-000">
+                        
+                        <label for="expiry-date">Expiry date:</label>
+                        <input type="text" id="expiry-date" placeholder="MM / YY">
+                        
+                        <label for="ccv">CCV:</label>
+                        <input type="text" id="ccv" placeholder="•••">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order Summary Frame -->
+            <div class="order-summary-frame">
+                <div class="order-summary-container">
+                    <h2>Order summary</h2>
+                    <div class="product-frame">
+                        <div class="order-item">
+                            <div class="item-info">
+                                <img src="images/sauvage.png" alt="Dior Sauvage" class="product-image">
+                                <div class="product-details">
+                                    <h4>Dior Sauvage</h4>
+                                    <p>Notes: Bergamot, Pepper, Ambroxan</p>
+                                    <p>$220</p>
+                                </div>
+                            </div>
+                            <div class="quantity-controls">
+                                <button>-</button>
+                                <input type="text" value="1">
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-frame">
+                        <div class="order-item">
+                            <div class="item-info">
+                                <img src="images/creed.png" alt="Aventus Creed" class="product-image">
+                                <div class="product-details">
+                                    <h4>Aventus Creed</h4>
+                                    <p>Notes: Bergamot, Pineapple, Musk</p>
+                                    <p>$220</p>
+                                </div>
+                            </div>
+                            <div class="quantity-controls">
+                                <button>-</button>
+                                <input type="text" value="1">
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-frame">
+                        <div class="order-item">
+                            <div class="item-info">
+                                <img src="images/chano5.png" alt="Chanel No. 5" class="product-image">
+                                <div class="product-details">
+                                    <h4>Chanel No. 5</h4>
+                                    <p>Notes: Aldehydes, Jasmine, Sandalwood</p>
+                                    <p>$220</p>
+                                </div>
+                            </div>
+                            <div class="quantity-controls">
+                                <button>-</button>
+                                <input type="text" value="1">
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="order-totals">
+                        <p>Product total: <span>$660.00</span></p>
+                        <p>Discount: <span>%0 ($Null)</span></p>
+                        <p>Delivery fee: <span>Free</span></p>
+                    </div>
+                    <hr>
+                    <div class="order-total">
+                        <h3>Total: <span>$660.00</span></h3>
+                    </div>
+                    <button class="order-button">Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 SÉDUIRE. All rights reserved. Created by Gonzales John Patrick</p>
+    </footer>
+</body>
+</html>
