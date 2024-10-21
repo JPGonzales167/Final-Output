@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
 }
@@ -216,6 +218,113 @@ footer{
 
 
 
+@media (max-width: 430px) {
+    .logo {
+        font-size: 80px;
+        letter-spacing: 8px;
+    }
 
+    nav ul li a {
+        font-size: 20px;
+        left: 85px;
+    }
 
+    .offer, .blue, .lady {
+        font-size: 24px;
+        
+    }
 
+    .blue, .lady{
+        position:relative; top: 200px; left: 50px;
+    }
+    .offer{
+        position:relative; left: 70px;
+    }
+
+    h2,h3,footer{
+        position:relative; top: -30px; left: 485px;
+       
+    }
+    .search-bar {
+        position:relative; top: -10px; left: 270px;
+        padding: 10px;
+        margin-right: 20px; 
+        border: 1px solid #333;
+        border-radius: 5px;
+        background: #1e1e1e;
+        color: white;
+    }
+    
+    .cart-icon img {
+        position:relative; top: -40px; left: 480px;
+        text-align: right;
+        width: 30px; 
+    }
+    .products-grid {
+        position:relative; top: -40px; left: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px; 
+        padding: 20px;
+    }
+
+    footer{
+        position:relative; top: 100px; left: 480px;
+    }
+    
+
+}
+@media (min-width: 630px) and (max-width: 1050px){
+    .logo {
+        font-size: 40px;
+        letter-spacing: 12px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        left: -150px;
+        position:relative; left: -60px;
+    }
+
+    .products-grid {
+        position:relative; top: -40px; left: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px; 
+        padding: 20px     
+    }
+
+    .perfume-image img {
+        max-width: 100%;
+    }
+
+    .offer, .blue, .lady {
+        font-size: 28px;
+    }
+    .search-bar {
+        position:relative; top: -10px; left: -90px;
+        padding: 10px;
+        margin-right: 20px; 
+        border: 1px solid #333;
+        border-radius: 5px;
+        background: #1e1e1e;
+        color: white;
+    }
+    
+    .cart-icon img {
+        position:relative; top: -40px; left: 150px;
+        text-align: right;
+        width: 30px; 
+    }
+    .offer, .blue, .lady {
+        font-size: 24px;
+        
+    }
+
+    .blue, .lady{
+        position:relative; top: 200px; left: 50px;
+    }
+    .offer{
+        position:relative; left: 70px;
+    }
+}
